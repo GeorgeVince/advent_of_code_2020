@@ -82,8 +82,8 @@ if __name__ == "__main__":
 
     passports = lines_to_passport(lines)
 
-    # print("Part one:")
-    # print(sum(1 for passport in passports if has_all_required_keys(passport)))
+    print("Part one:")
+    print(sum(1 for passport in passports if has_all_required_keys(passport)))
 
     print("Part two:")
     print(sum(1 for passport in passports if has_all_required_keys(
