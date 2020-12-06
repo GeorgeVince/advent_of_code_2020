@@ -47,8 +47,8 @@ def day_two_part_two():
 
 
 if __name__ == "__main__":
+    day_two_part_one()
     day_two_part_two()
-    is_valid_password_v2("3-5", "v", "qvjjdhvl")
-    is_valid_password_v2("1-3", "b", "cdefg")
+
 
 
