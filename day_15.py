@@ -1,7 +1,4 @@
-from collections import defaultdict
-
 data = [0, 3, 1, 6, 7, 5]
-
 
 def memory_game(size):
     seen = {}
